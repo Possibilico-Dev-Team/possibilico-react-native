@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator();
 
 export default function App(styles) {
   return (
-    <NavigationContainer>
+    <NavigationContainer styles = {styles.container}>
       <Stack.Navigator>
         <Stack.Screen
           name="SignIn"
